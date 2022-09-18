@@ -1,0 +1,24 @@
+{
+  "name": "CorKeys",
+  "version": "1.0.0",
+  "description": "A simple yet very helpfull website!",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/css/styles.css",
+    "watch:css": "npx tailwindcss -i ./src/input.css -o ./dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joennespreuwers/corkeys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joennespreuwers/corkeys/issues"
+  },
+  "homepage": "https://github.com/joennespreuwers/corkeys#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
