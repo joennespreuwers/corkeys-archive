@@ -1,7 +1,7 @@
 {
   "name": "CorKeys",
-  "version": "1.0.0",
-  "description": "A simple yet very helpfull website!",
+  "version": "2.0.0",
+  "description": "If your test's got you feeling blue, we've got the correction key for you!",
   "main": "index.js",
   "scripts": {
     "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/css/styles.css",
